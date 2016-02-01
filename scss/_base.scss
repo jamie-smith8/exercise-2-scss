@@ -4,3 +4,11 @@ Variables
 Variables are placeholders for storing your information that you want to reuse throughout your styles. You can store things like colours, font-families, or any css value you think you may want to reuse. 
 SCSS uses '$' symbol to declare variables
 */
+
+
+// Colors
+$primary: #20b2aa;
+$secondary: #ffffff;
+
+//Font Families
+$fonty: 'Lobster Two', cursive;
