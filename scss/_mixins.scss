@@ -11,3 +11,14 @@ To use a mixin within arguements
 @include($argument1, $argument2)
 
 */
+
+@mixin martini($color, $font, $hover) {
+  text-align: center;
+  color: $color;
+  padding-top: 20vh;
+  animation: shk-shk 1s ease infinite; 
+  &:hover {
+    animation: none;
+  }
+}
+
