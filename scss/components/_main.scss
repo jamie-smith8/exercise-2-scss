@@ -29,7 +29,7 @@ body {
 
 
 .martini {
-    @include martini($primary, $fonty, $secondary);
+    @include martini;
 }
 
 

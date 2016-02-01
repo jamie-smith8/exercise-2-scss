@@ -12,9 +12,9 @@ To use a mixin within arguements
 
 */
 
-@mixin martini($color, $font, $hover) {
+@mixin martini {
   text-align: center;
-  color: $color;
+  color: $primary;
   padding-top: 20vh;
   animation: shk-shk 1s ease infinite; 
   &:hover {
