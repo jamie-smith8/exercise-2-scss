@@ -1,0 +1,13 @@
+/*
+A mixin is similiar to a function. It has multiple declarations, as well as can take arguements.
+
+To declare a mixin
+@mixin mixin-name
+
+To use a mixin
+@include mixin-name
+
+To use a mixin within arguements
+@include($argument1, $argument2)
+
+*/
